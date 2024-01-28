@@ -1,0 +1,188 @@
+@import url(../../common.css);
+
+
+/* body style */
+
+
+body {
+  background: rgb(175, 175, 175);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#wrapper {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* header style */
+
+
+header {
+  background: orange;
+ 
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-family: '고딕';
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+
+}
+
+header h1 span {
+  font-size: 15px;
+  display: block;
+  
+}
+
+header .stit {
+  background: rgb(199, 199, 199);
+  font-size: 10px;
+  text-align: center;
+}
+
+/* container style */
+
+
+.container {
+  background: white;
+  height: auto;
+}
+
+.container .side-menu {
+  background: white;
+  width: 20%;
+  /* height: 600px; */
+  float: left;
+}
+
+.container .side-menu h3 {
+  color:  white;
+  background: darkred;
+  padding: 5px 10px;
+  margin: 0 0 10px;
+}
+.container .side-menu ul li a {
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 10px;
+  line-height: 2;
+}
+
+/* content stlye */
+
+
+.container .main-content {
+  width: 50%;
+  background: lightgray;
+  color: rgb(8, 44, 78);
+  float: left;
+  padding: 10px auto ;
+}
+
+.container .main-content .art-piece .title {
+  background: rgb(8, 44, 78);
+  margin: 10px 5px;
+  padding: 3px;
+
+}
+
+.container .main-content .art-piece a {
+  color: white;
+}
+
+.main-content .art-piece .artist {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 2;
+  padding: 5px;
+  
+}
+
+.main-content .art-piece .detail {
+  font-size: 12px;
+  line-height: 2;
+  padding: 5px;
+}
+
+
+/* banner style */
+
+
+.banner {
+  background: white;
+  width: 20%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  
+
+}
+
+.banner h3 {
+padding: 5px;
+
+}
+
+.banner .all {
+  font-size: 18px;
+  color: gray;
+  text-decoration: underline;
+  line-height: 2;
+ 
+}
+
+.banner .love {
+  font-size: 18px;
+  color: orange;
+  text-decoration: underline;
+  line-height: 2;
+  display: block;
+}
+
+.banner h3 strong {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.banner .link {
+  padding: 5px;
+}
+
+
+.banner .link a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.banner .link span {
+  display: block;
+}
+
+.banner .link  {
+  line-height: 1.5;
+  
+}
+
+
+
+/* footer style */
+
+
+footer {
+  color: white;
+  background: rgb(8, 44, 78);
+  float: bottom;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}

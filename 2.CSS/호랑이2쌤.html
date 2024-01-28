@@ -10,83 +10,99 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 
 <style>
-  body {
-  background: gray;
-  }
+  /* base style */
+body {
+  background: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  font-family: '굴림', 'Gulim', serif;
+}
 
 #wrapper {
   width: 50%;
-  height: auto;
-  margin: 0px auto;
-  font-family: '굴림';
+  margin: 0 auto;
 }
 
+/* header style */
 header {
-  background: rgb(9, 39, 78);
-  color: rgb(203, 221, 37);
+  background: #123456;
+  padding: 10px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #cc0;
   text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  font-family: '고딕';
+  font-family: 'Jua', cursive;
 }
 
-#wrapper h1 strong {
-  color: white;
-  font-size: 50px;
+header h1 strong {
+  font-size: 3em;
+  color: #fff;
 }
 
-#wrapper h1 span{
+header h1 span {
   font-size: 1.5em;
 }
 
-#wrapper h1 em {
-  font-size: 2.5em;
-  color: darkgray;
+header h1 em {
+  font-size: 2em;
+  color: #ccc;
 }
 
+/* container style */
 .container {
-background: lightgray;
-position: absolute;
+  background: #ccc;
 }
 
 .container .menu {
-  color: black;
   float: left;
-  position: absolute;
-  background: lightgrey;
+  width: 20%;
+  padding: 20px;
 }
 
-.container .menu a {
-  line-height: 2;
-  padding: 20px ;
-  color: black;
+.container .menu li {
+  margin-bottom: 8px;
+  text-decoration: underline;
 }
 
-
-.content {
-  background: white;
-
+.container .menu li a:hover {
+  color: #662;
+  border-bottom: 1px dashed #662;
 }
 
-.content h2{
- color: yellow;
- font-size: 20px;
- font-family: '궁서';
- background: darkred;
- padding: 10px;
- 
+.container .content {
+  background: #fff;
+  float: right;
+  width: 80%;
 }
 
-.content p {
-  background: white;
-  font-size: 15px;
-  padding: 10px;
-  text-align: justify
+.container .content h2 {
+  background: #800;
+  color: #ee0;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px 20px;
+  font-family: '궁서', cursive;
 }
-#wrapper footer address {
-  background: rgb(158, 158, 158);
-  padding: 10px;
-} 
+
+.container .content p {
+  padding: 20px;
+  text-align: justify;
+}
+
+/* footer style */
+footer {
+  background: #aaa;
+  padding: 10px 20px;
+}
+
+footer address {
+  color: #000;
+}
 </style>
 
 
