@@ -1,0 +1,27 @@
+
+
+/* logo img */
+
+.logos {
+  width: 100%;
+  position: relative;
+  padding: 60px 0;
+  border: 2px solid violet;
+}
+
+.logos .logo-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 2px solid green;
+}
+
+.logos .logo-img li {
+
+}
+
+.logos .logo-img li img {
+  width: 50%;
+  height: auto;
+  border: 2px solid blue
+}
